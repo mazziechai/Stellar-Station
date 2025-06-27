@@ -19,11 +19,16 @@
       - ForceFixRotations
       - Window
   - type: Sprite
-    drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
+    # Begin Stellar - Wallening
+    drawdepth: Mobs
+    sprite: _ST/Tileset/Walls/window_base.rsi
   - type: Icon
-    sprite: Structures/Windows/window.rsi
+    sprite: _ST/Tileset/Walls/window_base.rsi
     state: full
+  - type: PlacementReplacement
+    key: windows
+  - type: SpriteFade
+    # End Stellar - Wallening
   - type: Physics
     bodyType: Static
   - type: Fixtures
