@@ -20,3 +20,17 @@
   id: 3
   time: '2025-06-27T22:43:11.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/7
+- author: AftrLite, sowelipililimute
+  changes:
+  - message: Port Cosmic Cult to Stellar Station
+    type: Add
+  id: 4
+  time: '2025-07-01T04:37:48.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/8
+- author: sowelipililimute
+  changes:
+  - message: Upstream merge 2
+    type: Add
+  id: 5
+  time: '2025-07-01T04:52:59.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/9
