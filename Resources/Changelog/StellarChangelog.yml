@@ -66,3 +66,12 @@
   id: 9
   time: '2025-07-07T21:22:22.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/23
+- author: AftrLite
+  changes:
+  - message: New HUDs.
+    type: Add
+  - message: All Wizden HUDs aside from Default and Minimalism have been removed.
+    type: Remove
+  id: 10
+  time: '2025-07-10T03:21:16.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/25
