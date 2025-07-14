@@ -75,3 +75,27 @@
   id: 10
   time: '2025-07-10T03:21:16.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/25
+- author: AftrLite
+  changes:
+  - message: Wood trims updated, courtesy of StudioFaeWilds
+    type: Add
+  - message: Malign wall sprite fixes.
+    type: Fix
+  id: 11
+  time: '2025-07-14T10:12:34.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/31
+- author: AftrLite
+  changes:
+  - message: More respritening.
+    type: Add
+  - message: Vox are no longer available.
+    type: Remove
+  - message: Dwarves are no longer available.
+    type: Remove
+  - message: cosmic cult armor flashlight works again.
+    type: Fix
+  - message: the halfcut shader now works properly on dropshadowed entities.
+    type: Fix
+  id: 12
+  time: '2025-07-14T06:41:12.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/29
