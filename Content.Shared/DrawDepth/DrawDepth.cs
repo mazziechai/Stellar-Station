@@ -100,7 +100,7 @@ namespace Content.Shared.DrawDepth
 
         Mobs = DrawDepthTag.Default + 6,
 
-        OverMobs = DrawDepthTag.Default + 7,
+        OverMobs = DrawDepthTag.Default + 6, // Stellar - Reorder
 
         Doors = DrawDepthTag.Default + 8,
 
@@ -116,7 +116,7 @@ namespace Content.Shared.DrawDepth
         ///     Used for windows (grilles use walls) and misc signage. Useful if you want to have an APC in the middle
         ///     of some wall-art or something.
         /// </summary>
-        WallTops = DrawDepthTag.Default + 6,
+        WallTops = DrawDepthTag.Default + 8,
         // End Stellar - These go over mobs
 
         /// <summary>
