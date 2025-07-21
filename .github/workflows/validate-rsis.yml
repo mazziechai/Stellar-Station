@@ -26,4 +26,5 @@ jobs:
           cp .github/rsi-schema.json RobustToolbox/Schemas/rsi.json
       - name: Validate RSIs
         run: |
+          find . -name 'REUSE.toml' -delete
           python3 RobustToolbox/Schemas/validate_rsis.py Resources/

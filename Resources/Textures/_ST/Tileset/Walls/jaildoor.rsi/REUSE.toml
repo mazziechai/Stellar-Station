@@ -1,0 +1,7 @@
+version = 1
+
+[[annotations]]
+path = ["*.png"]
+SPDX-FileCopyrightText = "TheRealScarHomie"
+SPDX-License-Identifier = "CC-BY-NC-SA-3.0"
+SPDX-FileAttributionText = "https://github.com/Mojave-Sun/mojave-sun-13/blob/fff561d5e2ae8af913a835327a849eebbe5ce3e0/mojave/icons/obstacles/tallobstacles.dmi"

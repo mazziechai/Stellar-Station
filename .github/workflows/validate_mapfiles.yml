@@ -20,6 +20,6 @@ jobs:
     - uses: PaulRitter/yaml-schema-validator@v1
       with:
         schema: RobustToolbox/Schemas/mapfile.yml
-        path_pattern: .*Resources/Maps/.*
+        path_pattern: .*Resources/Maps/.*.yml
         validators_path: RobustToolbox/Schemas/mapfile_validators.py
         validators_requirements: RobustToolbox/Schemas/mapfile_requirements.txt

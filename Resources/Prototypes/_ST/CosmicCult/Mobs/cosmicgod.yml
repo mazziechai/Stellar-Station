@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-CosmicCult
+
 - type: entity
   abstract: true
   id: MobCosmicGodBase

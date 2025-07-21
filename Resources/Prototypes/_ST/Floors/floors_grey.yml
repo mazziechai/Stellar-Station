@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 - type: tile
   id: StellarFloorGreyBase
   name: st-floor-grey-base

@@ -1,5 +1,8 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-CosmicCult
 
- ########### COSMIC CONVERTER, BASE ABSTRACT #############
+########### COSMIC CONVERTER, BASE ABSTRACT #############
 
 - type: entity
   parent: BaseStructure

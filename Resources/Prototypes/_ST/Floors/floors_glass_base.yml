@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 ##################### REGULAR GLASS
 - type: tile
   id: StellarFloorGlassBase

@@ -1,0 +1,7 @@
+version = 1
+
+[[annotations]]
+path = ["*.png"]
+SPDX-FileCopyrightText = "Unknown from tgstation"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "Taken from https://github.com/tgstation/tgstation at commit 0f957e47d51d601156b4e716c59e0374895c192d"

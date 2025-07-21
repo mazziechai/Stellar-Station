@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-CosmicCult
+
 - type: entity
   id: CosmicGlyphBase
   name: base glyph

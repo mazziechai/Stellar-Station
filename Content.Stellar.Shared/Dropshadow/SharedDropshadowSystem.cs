@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared.Buckle.Components;
 using Content.Shared.Gravity;
 using Content.Shared.Standing;

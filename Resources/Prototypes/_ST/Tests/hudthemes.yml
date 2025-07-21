@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 - type: uiTheme
   id: STDefaultTheme
   path: /Textures/_ST/Interface/Stellar/

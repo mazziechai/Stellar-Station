@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Stellar.Shared.Dropshadow;
 using Robust.Client.GameObjects;
 

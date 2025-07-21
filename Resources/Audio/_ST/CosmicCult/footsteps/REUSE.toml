@@ -1,0 +1,8 @@
+version = 1
+
+[[annotations]]
+path = ["step1.ogg","step2.ogg","step3.ogg","step4.ogg","step5.ogg"]
+SPDX-FileCopyrightText = "Mixed with multiple footstep sounds by Artninja under Attribution 4.0 on Freesound.org"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileAttributionText = "https://freesound.org/people/Artninja/"
+

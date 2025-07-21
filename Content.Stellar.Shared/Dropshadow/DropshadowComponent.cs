@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+//
+// SPDX-License-Identifier: MIT
+
 using System.Numerics;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;

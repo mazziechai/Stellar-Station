@@ -1,0 +1,6 @@
+version = 1
+
+[[annotations]]
+path = ["*.swsl"]
+SPDX-FileCopyrightText = "AftrLite"
+SPDX-License-Identifier = "LicenseRef-CosmicCult"

@@ -1,0 +1,1 @@
+These files are taken verbatim from https://github.com/space-wizards/space-station-14, and the associated RGA, meta.json, and LICENSE files should be taken as the source of truth for their copyright.

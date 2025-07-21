@@ -1,5 +1,8 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-CosmicCult
 
- ########### COSMIC MONUMENT, BASE ABSTRACT #############
+########### COSMIC MONUMENT, BASE ABSTRACT #############
 
 - type: entity
   abstract: true

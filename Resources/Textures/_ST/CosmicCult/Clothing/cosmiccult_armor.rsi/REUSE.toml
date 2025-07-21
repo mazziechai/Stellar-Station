@@ -1,0 +1,11 @@
+version = 1
+
+[[annotations]]
+path = ["*.png"]
+SPDX-FileCopyrightText = "AftrLite"
+SPDX-License-Identifier = "LicenseRef-CosmicCult"
+
+[[annotations]]
+path = ["equipped-*-harpy.png", "equipped-*-feroxi.png", "equipped-*-vulpkanin.png"]
+SPDX-FileCopyrightText = "HTMLSystem"
+SPDX-License-Identifier = "LicenseRef-CosmicCult"

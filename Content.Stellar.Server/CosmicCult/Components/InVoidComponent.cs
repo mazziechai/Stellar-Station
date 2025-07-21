@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+// SPDX-FileCopyrightText: 2025 Janet Blackquill <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: LicenseRef-CosmicCult
+
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Stellar.Server.CosmicCult.Components;

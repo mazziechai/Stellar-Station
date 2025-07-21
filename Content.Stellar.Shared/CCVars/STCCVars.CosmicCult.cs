@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 AftrLite
+//
+// SPDX-License-Identifier: LicenseRef-CosmicCult
+
 using Robust.Shared.Configuration;
 
 namespace Content.Stellar.Shared.CCVars;

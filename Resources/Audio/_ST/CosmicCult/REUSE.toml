@@ -1,0 +1,37 @@
+version = 1
+
+[[annotations]]
+path = ["antag_cosmic_deconvert.ogg","antag_cosmic_briefing.ogg","tier_up.ogg"]
+SPDX-FileCopyrightText = "Custom jingles composed for Cosmic Cult by Octofoss."
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "https://octofoss.bandcamp.com/"
+
+[[annotations]]
+path = ["a_new_dawn.ogg","premonition.ogg","finale.ogg"]
+SPDX-FileCopyrightText = "Custom music composed by Nahu Pyrope for Cosmic Cult."
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "https://linktr.ee/nahupyrope"
+
+[[annotations]]
+path = ["projectile_razor_hit.ogg","projectile_razor_reload.ogg","projectile_razor.ogg","insert_entropy.ogg","tier2.ogg","tier3.ogg","tile_detonate.ogg","spire_draining.ogg","monument_spawn.ogg","monument_relocation.ogg","god_summon.ogg","god_spawn.ogg","god_ambient.ogg","glyph_trigger.ogg","effigy_supercritical.ogg","effigy_pulse.ogg","effigy_ambience.ogg","door_open.ogg","door_close.ogg","chantry_alarm.ogg","colossus_death.ogg","colossus_spawn.ogg","cosmicweapon_swing.ogg","cosmicsword_hit.ogg","cosmicsword_glance.ogg","cosmiclance_impact.ogg","cosmiclance_hit.ogg","cosmic_wield.ogg","cosmic_unwield.ogg","cleanse_deconversion.ogg","ability_nova_impact.ogg","ability_nova_cast.ogg","ability_nova_ambient.ogg","ability_lapse.ogg","ability_ingress.ogg","ability_imposition.ogg","ability_glare.ogg","ability_blank.ogg","ability_siphon.ogg","monument_relocate.ogg"]
+SPDX-FileCopyrightText = "By AftrLite(GitHub) for Cosmic Cult. Made using a combination of (Creative Commons 0) samples from freesound.org and personally-recorded foley."
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "https://freesound.org/"
+
+[[annotations]]
+path = ["antag_cosmic_AI_briefing.ogg"]
+SPDX-FileCopyrightText = "A bitcrushy and digitized edit of Octofoss' antag_cosmic_briefing.ogg by AftrLite(Github)."
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "https://octofoss.bandcamp.com/"
+
+[[annotations]]
+path = ["colossus_ambience.ogg"]
+SPDX-FileCopyrightText = "By widgetbeck \u0026 AftrLite(GitHub) for Cosmic Cult. Made using a combination of (Creative Commons 0) samples from freesound.org and personally-recorded foley."
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "https://freesound.org/"
+
+[[annotations]]
+path = ["colossus_ask.ogg","colossus_exclaim.ogg","colossus_say.ogg","colossus_scream.ogg"]
+SPDX-FileCopyrightText = "By widgetbeck for Cosmic Cult. Made using a combination of (Creative Commons 0) samples from freesound.org."
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileAttributionText = "https://freesound.org/"

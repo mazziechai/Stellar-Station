@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 - type: entity
   name: prayer book
   description: A tidily-bound book, full of prayers and scripture.
