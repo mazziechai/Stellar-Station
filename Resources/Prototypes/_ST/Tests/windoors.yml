@@ -5,6 +5,7 @@
 - type: entity
   id: StellarWindoorGlass
   parent: BaseWindoor
+  abstract: true
   name: directional glass windoor
   description: A glass service door for installation on tables or countertops.
   components:
@@ -64,6 +65,7 @@
 - type: entity
   id: StellarWindoorGlassReinforced
   parent: StellarWindoorGlass
+  abstract: true
   name: reinforced directional glass windoor
   description: A glass service door for installation on tables or countertops. This one's a bit tougher.
   components:
@@ -75,6 +77,7 @@
 - type: entity
   id: StellarWindoorPlasma
   parent: StellarWindoorGlass
+  abstract: true
   name: directional plasma windoor
   description: A plasma glass service door for installation on tables or countertops.
   components:
@@ -84,6 +87,7 @@
 - type: entity
   id: StellarWindoorPlasmaReinforced
   parent: StellarWindoorGlassReinforced
+  abstract: true
   name: reinforced directional plasma windoor
   description: A plasma glass service door for installation on tables or countertops. This one's a bit tougher.
   components:
@@ -94,6 +98,7 @@
 - type: entity
   id: StellarWindoorUranium
   parent: StellarWindoorGlass
+  abstract: true
   name: directional uranium windoor
   description: A uranium glass service door for installation on tables or countertops.
   components:
@@ -103,6 +108,7 @@
 - type: entity
   id: StellarWindoorUraniumReinforced
   parent: StellarWindoorGlassReinforced
+  abstract: true
   name: reinforced directional uranium windoor
   description: A uranium glass service door for installation on tables or countertops. This one's a bit tougher.
   components:
