@@ -4,6 +4,6 @@
 
 - type: nameIdentifierGroup
   id: CosmicPositronicBrain
-  prefix: ASTRAL
+  format: name-identifier-format-astral-mindsink
   minValue: 0
   maxValue: 10
