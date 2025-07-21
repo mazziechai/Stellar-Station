@@ -22,8 +22,6 @@
     ears: ClothingHeadsetService
   storage:
     back:
-    # - Bible # Stellar - Chaplains to Clerics
-    - PrayerBook # Stellar - Chaplains to Clerics
     - RubberStampChaplain
 
 - type: chameleonOutfit
