@@ -133,3 +133,17 @@
   id: 16
   time: '2025-07-19T03:41:07.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/36
+- author: AftrLite
+  changes:
+  - message: Respritening; Branding/logo updates.
+    type: Add
+  id: 17
+  time: '2025-07-27T23:00:18.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/78
+- author: sowelipililimute
+  changes:
+  - message: All windoors are now Stellar windoors
+    type: Tweak
+  id: 18
+  time: '2025-07-21T22:40:41.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/43
