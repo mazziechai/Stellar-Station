@@ -11,6 +11,14 @@
             "name": "shadow-medium"
         },
         {
+            "name": "shadow-playable",
+            "directions": 4
+        },
+        {
+            "name": "shadow-playable-prone",
+            "directions": 4
+        },
+        {
             "name": "shadow-large"
         },
         {

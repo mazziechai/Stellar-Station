@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
+# Wings
+- type: marking
+  id: StellarMothWingsDefault
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Moth]
+  sprites:
+  - sprite: _ST/Mobs/Playable/moth.rsi # Stellar
+    state: wings
+
+# Antennas
+- type: marking
+  id: StellarMothAntennaeDefault
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Moth]
+  sprites:
+  - sprite: _ST/Mobs/Playable/moth.rsi # Stellar
+    state: antennae

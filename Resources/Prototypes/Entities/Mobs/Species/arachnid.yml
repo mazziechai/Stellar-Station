@@ -55,10 +55,10 @@
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
-        sprite: Mobs/Effects/brute_damage.rsi
+        sprite: _ST/Effects/damage-overlay_brute.rsi # Stellar
         color: "#162581"
       Burn:
-        sprite: Mobs/Effects/burn_damage.rsi
+        sprite: _ST/Effects/damage-overlay_burn.rsi # Stellar
   - type: Speech
     speechVerb: Arachnid
     speechSounds: Arachnid
@@ -127,7 +127,7 @@
   - type: HumanoidAppearance
     species: Arachnid
   - type: Inventory
-    speciesId: arachnid 
+    speciesId: arachnid
 
 
 #>88w88<

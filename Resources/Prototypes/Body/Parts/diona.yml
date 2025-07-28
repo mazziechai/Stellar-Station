@@ -5,7 +5,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
 
 - type: entity
   id: TorsoDiona

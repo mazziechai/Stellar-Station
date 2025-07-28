@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
+# Vines
+- type: marking
+  id: StellarDionaVinesDefault
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Diona]
+  sprites:
+  - sprite: _ST/Mobs/Playable/diona.rsi
+    state: vines

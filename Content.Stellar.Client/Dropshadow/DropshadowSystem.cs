@@ -2,6 +2,8 @@
 //
 // SPDX-License-Identifier: MIT
 
+using System.Numerics;
+using Content.Shared.Humanoid;
 using Content.Stellar.Shared.Dropshadow;
 using Robust.Client.GameObjects;
 
@@ -48,5 +50,19 @@ public sealed partial class DropshadowSystem : SharedDropshadowSystem
 
         if (_appearance.TryGetData<bool>(ent, DropshadowVisuals.Visible, out var visible, args.Component))
             _sprite.LayerSetVisible((ent, args.Sprite), DropshadowLayers.Shadow, visible);
+
+        if (HasComp<HumanoidAppearanceComponent>(ent) && _appearance.TryGetData<bool>(ent, DropshadowVisuals.Prone, out var prone, args.Component))
+        {
+            if (!prone)
+            {
+                _sprite.LayerSetRsiState((ent, args.Sprite), DropshadowLayers.Shadow, "shadow-playable");
+                _sprite.LayerSetOffset((ent, args.Sprite), DropshadowLayers.Shadow, ent.Comp.Offset);
+            }
+            else
+            {
+                _sprite.LayerSetRsiState((ent, args.Sprite), DropshadowLayers.Shadow, "shadow-playable-prone");
+                _sprite.LayerSetOffset((ent, args.Sprite), DropshadowLayers.Shadow, Vector2.Zero);
+            }
+        }
     }
 }

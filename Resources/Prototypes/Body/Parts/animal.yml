@@ -10,7 +10,7 @@
   components:
   # yes these sprites dont make sense i dont care its better than them being invisible
   - type: Sprite
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
   - type: Damageable
     damageContainer: Biological
   - type: BodyPart

@@ -10,12 +10,12 @@ public static class SkinColor
 
     public const float MinHuesLightness = 0.175f;
 
-    public const float MinFeathersHue = 29f / 360;
-    public const float MaxFeathersHue = 174f / 360;
-    public const float MinFeathersSaturation = 20f / 100;
-    public const float MaxFeathersSaturation = 88f / 100;
-    public const float MinFeathersValue = 36f / 100;
-    public const float MaxFeathersValue = 55f / 100;
+    public const float MinFeathersHue = 0f / 360; // Stellar - Begin | Vox don't exist in stellar so we're parasitizing the skin color entry
+    public const float MaxFeathersHue = 360f / 360;
+    public const float MinFeathersSaturation = 0f / 100;
+    public const float MaxFeathersSaturation = 67f / 100;
+    public const float MinFeathersValue = 30f / 100;
+    public const float MaxFeathersValue = 100f / 100; // Stellar - End
 
     public static Color ValidHumanSkinTone => Color.FromHsv(new Vector4(0.07f, 0.2f, 1f, 1f));
 
@@ -45,7 +45,7 @@ public static class SkinColor
         // 20 is 25 - 20 - 100
         // 100 is 25 - 100 - 20
 
-        tone = Math.Clamp(tone, 0, 100);
+        tone = Math.Clamp(tone, 0, 85); // Stellar - Clamp maximum to 85, up from 0.
 
         var rangeOffset = tone - 20;
 

@@ -7,7 +7,7 @@
   defaultSkinTone: "#34a223"
   markingLimits: MobReptilianMarkingLimits
   dollPrototype: MobReptilianDummy
-  skinColoration: Hues
+  skinColoration: VoxFeathers # Stellar
   maleFirstNames: NamesReptilianMale
   femaleFirstNames: NamesReptilianFemale
   naming: FirstDashFirst
@@ -23,7 +23,7 @@
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
-    Eyes: MobHumanoidEyes
+    Eyes: MobReptilianEyes
     LArm: MobReptilianLArm
     RArm: MobReptilianRArm
     LHand: MobReptilianLHand
@@ -46,11 +46,11 @@
     Tail:
       points: 1
       required: true
-      defaultMarkings: [ LizardTailSmooth ]
+      defaultMarkings: [ StellarLizardTailDefault ] # Stellar
     Snout:
       points: 1
       required: true
-      defaultMarkings: [ LizardSnoutRound ]
+      defaultMarkings: [ StellarLizardSnoutDefault ] # Default
     HeadTop:
       points: 2
       required: false
@@ -73,86 +73,92 @@
       points: 2
       required: false
 
+- type: humanoidBaseSprite # Stellar Begin
+  id: MobReptilianEyes
+  baseSprite:
+    sprite: _ST/Mobs/Playable/lizard.rsi
+    state: eyes # Stellar End
+
 - type: humanoidBaseSprite
   id: MobReptilianHead
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobReptilianHeadMale
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobReptilianHeadFemale
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobReptilianTorso
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobReptilianTorsoMale
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobReptilianTorsoFemale
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobReptilianLLeg
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobReptilianLHand
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobReptilianLArm
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobReptilianLFoot
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobReptilianRLeg
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobReptilianRHand
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobReptilianRArm
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobReptilianRFoot
   baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: r_foot

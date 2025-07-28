@@ -51,12 +51,12 @@ public abstract class SharedDropshadowSystem : EntitySystem
 
     private void OnDowned(Entity<DropshadowComponent> ent, ref DownedEvent args)
     {
-        _appearance.SetData(ent, DropshadowVisuals.Visible, false);
+        _appearance.SetData(ent, DropshadowVisuals.Prone, true);
     }
 
     private void OnStood(Entity<DropshadowComponent> ent, ref StoodEvent args)
     {
-        _appearance.SetData(ent, DropshadowVisuals.Visible, true);
+        _appearance.SetData(ent, DropshadowVisuals.Prone, false);
     }
 
     private void OnParentChanged(Entity<DropshadowComponent> ent, ref EntParentChangedMessage args)

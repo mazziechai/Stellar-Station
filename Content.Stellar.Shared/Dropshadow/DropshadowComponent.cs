@@ -22,16 +22,17 @@ public sealed partial class DropshadowComponent : Component
     public SpriteSpecifier Sprite = default!;
 
     /// <summary>
-    /// The distance you need the dropshadow to be offset from the entity it's applied to. Format is "#, #". X (horizontal) and Y (vertical) axis.
+    /// The distance you need the dropshadow to be offset from the entity it's applied to. Default is offset for playable species base.
     /// </summary>
     [DataField]
-    public Vector2 Offset = Vector2.Zero;
+    public Vector2 Offset = new Vector2(0, -0.062f);
 }
 
 [Serializable, NetSerializable]
 public enum DropshadowVisuals
 {
-    Visible
+    Visible,
+    Prone
 }
 
 [Serializable, NetSerializable]

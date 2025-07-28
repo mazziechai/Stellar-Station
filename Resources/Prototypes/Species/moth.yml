@@ -7,7 +7,7 @@
   defaultSkinTone: "#ffda93"
   markingLimits: MobMothMarkingLimits
   dollPrototype: MobMothDummy
-  skinColoration: Hues
+  skinColoration: VoxFeathers # Stellar
   maleFirstNames: NamesMothFirstMale
   femaleFirstNames: NamesMothFirstFemale
   lastNames: NamesMothLast
@@ -36,7 +36,7 @@
 - type: humanoidBaseSprite
   id: MobMothEyes
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: eyes
 
 - type: markingPoints
@@ -52,14 +52,14 @@
     Tail:
       points: 1
       required: true
-      defaultMarkings: [ MothWingsDefault ]
+      defaultMarkings: [ StellarMothWingsDefault ] # Stellar
     Snout:
       points: 1
       required: false
     HeadTop:
       points: 1
       required: true
-      defaultMarkings: [ MothAntennasDefault ]
+      defaultMarkings: [ StellarMothAntennaeDefault ] # Stellar
     HeadSide:
       points: 1
       required: false
@@ -85,83 +85,83 @@
 - type: humanoidBaseSprite
   id: MobMothHead
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobMothHeadMale
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobMothHeadFemale
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobMothTorso
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobMothTorsoMale
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobMothTorsoFemale
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobMothLLeg
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobMothLHand
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobMothLArm
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobMothLFoot
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobMothRLeg
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobMothRHand
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobMothRArm
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobMothRFoot
   baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
+    sprite: _ST/Mobs/Playable/moth.rsi # Stellar
     state: r_foot

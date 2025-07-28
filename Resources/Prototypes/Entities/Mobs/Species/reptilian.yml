@@ -17,7 +17,7 @@
     needsHands: false
   - type: Thirst
   - type: Icon
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
     state: full
   - type: Body
     prototype: Reptilian

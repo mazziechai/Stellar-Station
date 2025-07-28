@@ -7,7 +7,7 @@
   defaultSkinTone: "#cdb369"
   markingLimits: MobDionaMarkingLimits
   dollPrototype: MobDionaDummy
-  skinColoration: Hues
+  skinColoration: VoxFeathers # Stellar
   maleFirstNames: NamesDionaFirst
   femaleFirstNames: NamesDionaFirst
   lastNames: NamesDionaLast
@@ -63,94 +63,94 @@
     Overlay:
       points: 1
       required: true
-      defaultMarkings: [ DionaVineOverlay ]
+      defaultMarkings: [ StellarDionaVinesDefault ] # Stellar
 
 - type: humanoidBaseSprite
   id: MobDionaEyes
   baseSprite:
-    sprite: Mobs/Customization/eyes.rsi
-    state: diona
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
+    state: eyes # Stellar
 
 - type: humanoidBaseSprite
   id: MobDionaHead
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobDionaHeadMale
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobDionaHeadFemale
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobDionaTorso
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobDionaTorsoMale
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobDionaTorsoFemale
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobDionaLLeg
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobDionaLHand
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobDionaLArm
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobDionaLFoot
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobDionaRLeg
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobDionaRHand
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobDionaRArm
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobDionaRFoot
   baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _ST/Mobs/Playable/diona.rsi # Stellar
     state: r_foot

@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2025 AftrLite
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
+# Snouts
+- type: marking
+  id: StellarLizardSnoutDefault
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
+    state: snout
+
+# Tails
+- type: marking
+  id: StellarLizardTailDefault
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
+    state: tail
+
+# Tails - Animated
+- type: marking
+  id: StellarLizardTailDefaultAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+  - sprite: _ST/Mobs/Playable/lizard.rsi # Stellar
+    state: tail
