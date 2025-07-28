@@ -1,0 +1,6 @@
+version = 1
+
+[[annotations]]
+path = ["*.ftl"]
+SPDX-FileCopyrightText = "Nemanja, EmoGarbage404"
+SPDX-License-Identifier = "MIT"

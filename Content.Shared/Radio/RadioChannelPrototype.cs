@@ -1,4 +1,8 @@
 using Robust.Shared.Prototypes;
+// ES Start
+using Content.Shared.Whitelist;
+// ES End
+
 
 namespace Content.Shared.Radio;
 
@@ -35,4 +39,13 @@ public sealed partial class RadioChannelPrototype : IPrototype
     /// </summary>
     [DataField("longRange"), ViewVariables]
     public bool LongRange = false;
+
+// ES START
+    /// <summary>
+    /// Whitelist that limits who is able to send this message.
+    /// Note that this refers to a radio source: headsets, intercoms, etc.
+    /// </summary>
+    [DataField]
+    public EntityWhitelist? SenderWhitelist;
+// ES END
 }

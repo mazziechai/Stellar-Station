@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Nemanja / EmoGarbage404
+#
+# SPDX-License-Identifier: MIT
+
+- type: localizedDataset
+  id: ESRadioFalloffInterjections
+  values:
+    prefix: es-radio-falloff-interjection-
+    count: 5
