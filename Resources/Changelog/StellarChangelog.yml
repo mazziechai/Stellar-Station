@@ -147,3 +147,12 @@
   id: 18
   time: '2025-07-21T22:40:41.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/43
+- author: AftrLite
+  changes:
+  - message: More respritening; Species & ghosts!
+    type: Add
+  - message: Drop shadows now adjust when prone/crawling.
+    type: Add
+  id: 19
+  time: '2025-07-28T06:35:56.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/37
