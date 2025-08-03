@@ -17,12 +17,12 @@
     - AnomalyFlesh
     - AnomalyBluespace
     - AnomalyIce
-    - RandomRockAnomalySpawner
     - AnomalyLiquid
-    - AnomalyFlora
     - AnomalyShadow
-    - AnomalyTech
-    #- AnomalySanta
+    # - RandomRockAnomalySpawner # Stellar - A more server-thematic replacement would be nice.
+    # - AnomalyTech # Stellar - A more server-thematic replacement would be nice.
+    # - AnomalyFlora # Stellar - I don't feel like respriting this right now.
+    # - AnomalySanta # Stellar - Disabled permanently.
     rareChance: 0.3
     rarePrototypes:
     - RandomAnomalyInjectorSpawner
@@ -70,7 +70,7 @@
     - AnomalyTrapBluespace
     - AnomalyTrapFlesh
     - AnomalyTrapGravity
-    - AnomalyTrapTech
-    - AnomalyTrapRock
-    #- AnomalyTrapSanta
+    # - AnomalyTrapTech # Stellar - A more server-thematic replacement would be nice.
+    # - AnomalyTrapRock # Stellar - A more server-thematic replacement would be nice.
+    # - AnomalyTrapSanta # Stellar - Disabled permanently.
     chance: 1

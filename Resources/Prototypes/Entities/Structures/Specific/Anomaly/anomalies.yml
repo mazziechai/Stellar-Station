@@ -5,7 +5,7 @@
   description: An impossible object. Should you be standing this close to it?
   components:
   - type: Anomaly
-    offset: 0, 0.15
+    # offset: 0, 0.15 # Stellar - Anomalies | I don't need gridless up and down bobbing here.
     pulseSound:
       collection: RadiationPulse
       params:
@@ -33,7 +33,7 @@
         - FlyingMobLayer
   - type: Sprite
     noRot: true
-    drawdepth: Effects #it needs to draw over stuff.
+    drawdepth: Mobs #it needs to draw over stuff.
     sprite: Structures/Specific/anomaly.rsi
   - type: InteractionOutline
   - type: Clickable
@@ -75,12 +75,16 @@
     supercriticalSoundAtAnimationStart:
       collection: AnomalyPyroSupercritical
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/pyro_anom.rsi
+    sprite: _ST/Effects/Anomalies/anomaly_fire.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
     - state: pulse
-      map: ["enum.AnomalyVisualLayers.Animated"]
+      shader: unshaded
+      map: ["enum.AnomalyVisualLayers.Animated"] # End Stellar - Anomalies
       visible: false
   - type: PointLight
     radius: 6.0
@@ -130,16 +134,21 @@
       collection: AnomalyGravitySupercritical
     supercriticalDuration: 15s
   - type: Sprite
+    sprite: _ST/Effects/Anomalies/anomaly_gravity.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom2
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
-    - state: anom2-pulse
-      map: ["enum.AnomalyVisualLayers.Animated"]
+    - state: pulse
+      shader: unshaded
+      map: ["enum.AnomalyVisualLayers.Animated"] # End Stellar - Anomalies
       visible: false
   - type: PointLight
     radius: 5.0
-    energy: 20
-    color: "#1e070e"
+    energy: 5
+    color: "#3C5E8BFF"
     castShadows: false
   - type: GravityAnomaly
   - type: GravityWell
@@ -150,8 +159,8 @@
   - type: CanMoveInAir
   - type: RandomWalk
   - type: SingularityDistortion
-    intensity: 1000
-    falloffPower: 2.7
+    intensity: 50 # Stellar
+    falloffPower: 1.8 # Stellar
 
 - type: entity
   id: AnomalyElectricity
@@ -164,11 +173,16 @@
     supercriticalSoundAtAnimationStart:
       collection: AnomalyElectricitySupercritical
   - type: Sprite
+    sprite: _ST/Effects/Anomalies/anomaly_electric.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom3
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
-    - state: anom3-pulse
-      map: ["enum.AnomalyVisualLayers.Animated"]
+    - state: pulse
+      shader: unshaded
+      map: ["enum.AnomalyVisualLayers.Animated"] # End Stellar - Anomalies
       visible: false
   - type: PointLight
     radius: 2.0
@@ -191,11 +205,16 @@
     supercriticalSoundAtAnimationStart:
       collection: AnomalyFleshSupercritical
   - type: Sprite
+    sprite: _ST/Effects/Anomalies/anomaly_flesh.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom5
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
-    - state: anom5-pulse
-      map: ["enum.AnomalyVisualLayers.Animated"]
+    - state: pulse
+      shader: unshaded
+      map: ["enum.AnomalyVisualLayers.Animated"] # End Stellar - Anomalies
       visible: false
   - type: PointLight
     radius: 2.0
@@ -279,15 +298,21 @@
   suffix: Bluespace
   components:
   - type: Sprite
+    sprite: _ST/Effects/Anomalies/anomaly_bluespace.rsi # Stellar - Anomalies
     layers:
-    - state: anom4
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx # Stellar - Anomalies
+      shader: unshaded # Stellar - Anomalies
       map: ["enum.AnomalyVisualLayers.Base"]
-    - state: anom4-pulse
+    - state: pulse # Stellar - Anomalies
+      shader: unshaded # Stellar - Anomalies
       map: ["enum.AnomalyVisualLayers.Animated"]
       visible: false
   - type: PointLight
     radius: 2.0
-    energy: 7.5
+    energy: 5.5 # Stellar - Anomalies
+    softness: 4 # Stellar - Anomalies
     color: "#00ccff"
     castShadows: false
   - type: BluespaceAnomaly
@@ -328,12 +353,16 @@
   suffix: Ice
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/ice_anom.rsi
+    sprite: _ST/Effects/Anomalies/anomaly_ice.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
     - state: pulse
-      map: ["enum.AnomalyVisualLayers.Animated"]
+      shader: unshaded
+      map: ["enum.AnomalyVisualLayers.Animated"] # End Stellar - Anomalies
       visible: false
   - type: PointLight
     radius: 2.0
@@ -875,17 +904,21 @@
   suffix: Liquid
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/liquid_anom.rsi
+    sprite: _ST/Effects/Anomalies/anomaly_liquid.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
     - state: pulse
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Animated"]
-      visible: false
+      visible: false # End Stellar - Anomalies
   - type: RandomSprite
     selected: # Initialized layer values. Edited through the ReagentProducerAnomalySystem
       enum.AnomalyVisualLayers.Base:
-        anom: "#ffffff"
+        vfx: "#ffffff"
       enum.AnomalyVisualLayers.Animated:
         pulse: "#ffffff"
   - type: PointLight
@@ -990,12 +1023,16 @@
   suffix: Shadow
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/shadow_anom.rsi
+    sprite: _ST/Effects/Anomalies/anomaly_shadow.rsi # Begin Stellar - Anomalies
     layers:
-    - state: anom
+    - state: shadow-anomaly
+      shader: unshaded
+    - state: vfx
+      shader: unshaded
       map: ["enum.AnomalyVisualLayers.Base"]
     - state: pulse
-      map: ["enum.AnomalyVisualLayers.Animated"]
+      shader: unshaded
+      map: ["enum.AnomalyVisualLayers.Animated"] # End Stellar - Anomalies
       visible: false
   - type: PointLight
     radius: 1.5
