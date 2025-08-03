@@ -163,3 +163,14 @@
   id: 20
   time: '2025-07-28T10:25:10.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/79
+- author: AftrLite
+  changes:
+  - message: 'More respritening: Anomalies'
+    type: Add
+  - message: The Tech, Floral, and Rock anomalies have been temporarily disabled.
+    type: Tweak
+  - message: The Santa anomaly has been removed.
+    type: Remove
+  id: 21
+  time: '2025-08-03T08:36:56.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/82
