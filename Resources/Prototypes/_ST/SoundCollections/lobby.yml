@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2025 Darklyac
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
+- type: soundCollection
+  id: LobbyMusic
+  files:
+    - /Audio/_ST/Lobby/apocalypse_(stereo).ogg
+    - /Audio/_ST/Lobby/gruntwork_(stereo).ogg
+    - /Audio/_ST/Lobby/new_save_(stereo).ogg
+    - /Audio/_ST/Lobby/somewhere_in_space_(stereo).ogg
+    - /Audio/_ST/Lobby/jungle_juice_(stereo).ogg

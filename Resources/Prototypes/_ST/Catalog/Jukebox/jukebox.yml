@@ -1,0 +1,33 @@
+# SPDX-FileCopyrightText: 2025 Darklyac
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
+- type: jukebox
+  id: SomewhereInSpace
+  name: Darklyac - Somewhere in Space
+  path:
+    path: /Audio/_ST/Jukebox/somewhere_in_space.ogg
+
+- type: jukebox
+  id: Apocalypse
+  name: Darklyac - Apocalypse
+  path:
+    path: /Audio/_ST/Jukebox/apocalypse.ogg
+
+- type: jukebox
+  id: NewSave
+  name: Darklyac - New Save
+  path:
+    path: /Audio/_ST/Jukebox/new_save.ogg
+
+- type: jukebox
+  id: JungleJuice
+  name: Darklyac - Jungle Juice
+  path:
+    path: /Audio/_ST/Jukebox/jungle_juice.ogg
+
+- type: jukebox
+  id: Gruntwork
+  name: Darklyac - Gruntwork
+  path:
+    path: /Audio/_ST/Jukebox/gruntwork.ogg
