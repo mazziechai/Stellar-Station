@@ -181,3 +181,12 @@
   id: 22
   time: '2025-08-04T03:56:00.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/32
+- author: AftrLite
+  changes:
+  - message: Stellar Station music has been added to the lobby and jukebox.
+    type: Add
+  - message: Wizden music has been removed from the lobby and jukebox.
+    type: Remove
+  id: 23
+  time: '2025-08-04T04:19:55.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/89
