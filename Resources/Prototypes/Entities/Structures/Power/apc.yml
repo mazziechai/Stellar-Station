@@ -27,7 +27,7 @@
     anchored: true
   - type: Sprite
     drawdepth: Overdoors # Stellar
-    sprite: _ST/Tileset/OnWalls/apc.rsi # Stellar - Wallening
+    sprite: _ST/Tileset/Wallmounts/apc.rsi # Stellar - Wallening
     layers:
     - state: base
     - state: panel
@@ -76,7 +76,7 @@
     sourceNode: input
     loadNode: output
     collectionName: apc
-    sprite: _ST/Tileset/OnWalls/apc.rsi # Stellar - Wallening
+    sprite: _ST/Tileset/Wallmounts/apc.rsi # Stellar - Wallening
     state: static
   - type: BatteryCharger
     voltage: Medium
@@ -169,7 +169,7 @@
     anchored: true
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _ST/Tileset/OnWalls/apc.rsi # Stellar - Wallening
+    sprite: _ST/Tileset/Wallmounts/apc.rsi # Stellar - Wallening
     state: frame
   - type: Construction
     graph: APC

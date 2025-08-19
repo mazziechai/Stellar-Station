@@ -79,13 +79,14 @@
   - type: WiresVisuals
   - type: Sprite
     drawdepth: Overdoors # Stellar
-    sprite: Structures/Wallmounts/air_monitors.rsi
+    sprite: _ST/Tileset/Wallmounts/airalarm.rsi # Stellar - Wallening
     layers:
-    - state: alarmp
+    - state: base # Stellar
       map: ["airAlarmBase"]
-    - state: alarm0
+    - state: alarm0 # Stellar
+      shader: unshaded
       map: ["airAlarmState"] # TODO: fire alarm enum
-    - state: alarmx
+    - state: wires # Stellar
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Transform
     anchored: true
@@ -132,7 +133,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Wallmounts/air_monitors.rsi
+    sprite: _ST/Tileset/Wallmounts/airalarm.rsi # Stellar - Wallening
     layers:
     - state: alarm_b1
       map: [ "enum.ConstructionVisuals.Layer" ]

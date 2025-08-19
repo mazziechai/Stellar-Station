@@ -15,8 +15,8 @@
   - type: Physics
     canCollide: false
   - type: Sprite
-    drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch.rsi
+    drawdepth: Mobs # Stellar
+    sprite: _ST/Tileset/Machines/button.rsi # Stellar
     state: on
   - type: SignalSwitch
   - type: UseDelay
@@ -58,8 +58,8 @@
   - type: Physics
     canCollide: false
   - type: Sprite
-    drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch.rsi
+    drawdepth: Mobs # Stellar
+    sprite: _ST/Tileset/Machines/button.rsi # Stellar
     state: dead
   - type: UseDelay
     delay: 0.5 # prevent light-toggling auto-clickers.
@@ -123,8 +123,8 @@
     - type: Transform
       anchored: true
     - type: Sprite
-      drawdepth: SmallObjects
-      sprite: Structures/Wallmounts/switch.rsi
+      drawdepth: Mobs # Stellar
+      sprite: _ST/Tileset/Machines/button.rsi # Stellar
       state: on
     - type: Rotatable
     - type: ExtensionCableReceiver

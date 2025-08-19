@@ -42,8 +42,8 @@
       key_slots: !type:Container
   - type: Sprite
     noRot: false
-    drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/intercom.rsi
+    drawdepth: Overdoors # Stellar
+    sprite: _ST/Tileset/Wallmounts/intercom.rsi # Stellar - Wallening
     layers:
     - state: base
     - state: unshaded
@@ -137,8 +137,8 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/intercom.rsi
+    drawdepth: Overdoors # Stellar
+    sprite: _ST/Tileset/Wallmounts/intercom.rsi # Stellar - Wallening
     layers:
     - state: build
     - state: panel
