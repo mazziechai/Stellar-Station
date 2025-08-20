@@ -238,18 +238,20 @@
   - type: Stack
     stackType: WoodPlank
     baseLayer: base
-    layerStates:
-    - wood
-    - wood_2
-    - wood_3
+    layerStates: # Begin Stellar - Materials
+    - material
+    - material-2
+    - material-3
   - type: Sprite
-    state: wood
+    sprite: _ST/Items/Materials/wood.rsi
+    state: material-3
     layers:
-    - state: wood
+    - state: material
       map: ["base"]
   - type: Appearance
   - type: Item
-    heldPrefix: wood
+    sprite: _ST/Items/Materials/wood.rsi
+    heldPrefix: material # End Stellar - Materials
   - type: Tag
     tags:
     - Wooden
@@ -365,18 +367,20 @@
   - type: Stack
     stackType: Diamond
     baseLayer: base
-    layerStates:
-    - diamond
-    - diamond_2
-    - diamond_3
+    layerStates: # Begin Stellar - Materials
+    - material
+    - material-2
+    - material-3
   - type: Sprite
-    state: diamond
+    sprite: _ST/Items/Materials/diamond.rsi
+    state: material-3
     layers:
-    - state: diamond
+    - state: material
       map: ["base"]
   - type: Appearance
   - type: Item
-    heldPrefix: diamond
+    sprite: _ST/Items/Materials/diamond.rsi
+    heldPrefix: material # End Stellar - Materials
   - type: Extractable
     grindableSolutionName: diamond
   - type: SolutionContainerManager

@@ -32,20 +32,20 @@
   - type: Stack
     stackType: MetalRod
     baseLayer: base
-    layerStates:
-    - rods
-    - rods_2
-    - rods_3
-    - rods_4
-    - rods_5
+    layerStates: # Begin Stellar - Materials
+    - material
+    - material-2
+    - material-3
   - type: Sprite
-    state: rods_5
+    sprite: _ST/Items/Materials/rods.rsi
+    state: material-3
     layers:
-    - state: rods_5
+    - state: material
       map: ["base"]
   - type: Item
     size: Normal
-    heldPrefix: rods
+    sprite: _ST/Items/Materials/rods.rsi
+    heldPrefix: material # End Stellar - Materials
   - type: Construction
     graph: MetalRod
     node: MetalRod
