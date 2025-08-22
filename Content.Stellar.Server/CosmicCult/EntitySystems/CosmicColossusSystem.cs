@@ -86,9 +86,11 @@ public sealed class CosmicColossusSystem : EntitySystem
     private void OnSpawn(Entity<CosmicColossusComponent> ent, ref ComponentInit args) // I WANT THIS BIG GUY HURLED TOWARDS THE STATION
     {
         ent.Comp.DeathTimer = _timing.CurTime + ent.Comp.DeathWait;
-        var station = _station.GetStationInMap(Transform(ent).MapID);
-        var stationGrid = _station.GetLargestGrid(station!.Value);
-        _throw.TryThrow(ent, Transform(stationGrid!.Value).Coordinates, baseThrowSpeed: 30, null, 0, 0, false, false, false, false, false);
+        if (_station.GetStationInMap(Transform(ent).MapID) is { } station &&
+            _station.GetLargestGrid(station) is { } grid)
+        {
+            _throw.TryThrow(ent, Transform(grid).Coordinates, baseThrowSpeed: 30, null, 0, 0, false, false, false, false, false);
+        }
         if (ent.Comp.Timed)
             _actions.AddAction(ent, ref ent.Comp.EffigyPlaceActionEntity, ent.Comp.EffigyPlaceAction, ent);
     }
