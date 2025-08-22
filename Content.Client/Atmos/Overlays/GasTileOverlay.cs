@@ -38,8 +38,8 @@ namespace Content.Client.Atmos.Overlays
         private readonly Texture[][] _frames;
 
         // Fire overlays
-        private const int FireStates = 3;
-        private const string FireRsiPath = "/Textures/Effects/fire.rsi";
+        private const int FireStates = 7; // Stellar - Fire
+        private const string FireRsiPath = "/Textures/_ST/Effects/tile-fire.rsi"; // Stellar - Fire
 
         private readonly float[] _fireTimer = new float[FireStates];
         private readonly float[][] _fireFrameDelays = new float[FireStates][];
