@@ -366,6 +366,9 @@
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects_angled.rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
+  - type: Door
+    closedDrawDepth: Mobs
+    openDrawDepth: Mobs
 
 - type: entity
   id: StellarAirlockGlassPlastitanium
