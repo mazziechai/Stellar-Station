@@ -32,6 +32,15 @@
         },
         {
             "name": "shadow-lightpost"
+        },
+        {
+            "name": "shadow-crate"
+        },
+        {
+            "name": "shadow-locker"
+        },
+        {
+            "name": "shadow-cart"
         }
     ]
 }

@@ -180,8 +180,8 @@
 - type: entity
   parent: LockerBase
   id: LockerEvacRepair
-  name: DON'T MAP THIS  # Begin Stellar - Lockers
-  description: DON'T MAP THIS
+  name: DEPRECATED  # Begin Stellar - Lockers
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: EntityStorageVisuals
@@ -390,8 +390,8 @@
 - type: entity
   id: LockerBrigmedic
   parent: LockerBaseSecure
-  name: DON'T MAP THIS # Stellar - Lockers
-  description: DON'T MAP THIS # Stellar - Lockers
+  name: DEPRECATED # Stellar - Lockers
+  description: DEPRECATED # Stellar - Lockers
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -581,8 +581,8 @@
 - type: entity
   id: LockerSyndicatePersonal
   parent: LockerBaseSecure # Begin Stellar - Lockers
-  name: DON'T MAP THIS
-  description: DON'T MAP THIS
+  name: DEPRECATED
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: EntityStorageVisuals
@@ -621,8 +621,8 @@
 - type: entity
   id: LockerClown
   parent: LockerBaseSecure # Begin Stellar - Lockers
-  name: DON'T MAP THIS
-  description: DON'T MAP THIS
+  name: DEPRECATED
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: AccessReader
@@ -637,8 +637,8 @@
 - type: entity
   id: LockerMime
   parent: LockerBaseSecure # Begin Stellar - Lockers
-  name: DON'T MAP THIS
-  description: DON'T MAP THIS
+  name: DEPRECATED
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: AccessReader
@@ -652,8 +652,8 @@
 - type: entity
   id: LockerRepresentative
   parent: LockerBaseSecure # Begin Stellar - Lockers
-  name: DON'T MAP THIS
-  description: DON'T MAP THIS
+  name: DEPRECATED
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: AccessReader

@@ -116,6 +116,12 @@
     stateDoorClosed: door-closed # End Stellar - Lockers
   - type: StaticPrice
     price: 75
+  - type: Dropshadow
+    sprite:
+      sprite: _ST/Effects/dropshadow.rsi
+      state: shadow-locker
+    offset: 0, -0.25
+    anchorShadow: true
 
 # steel closet base (that can be constructed/deconstructed)
 - type: entity

@@ -91,9 +91,9 @@
 # Janitorial bomb suit closet
 - type: entity
   id: ClosetJanitorBomb
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
   categories: [ DoNotMap ]
   components:
   - type: Appearance
@@ -135,9 +135,9 @@
 # Virology variant
 - type: entity
   id: ClosetL3Virology
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: EntityStorageVisuals
@@ -186,9 +186,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicate
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS
+  description: DEPRECATED
   # components:
   # - type: Appearance
   # - type: EntityStorageVisuals

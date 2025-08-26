@@ -136,103 +136,103 @@
 
 - type: entity
   id: WardrobeSecurity
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeAtmospherics
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: ClosetJanitor
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeFormal
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: ClosetChef
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeChapel
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: ClosetLegal
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeCargo
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 
 - type: entity
   id: WardrobeSalvage
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeEngineering
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeMedicalDoctor
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeRobotics
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeChemistry
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeGenetics
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeVirology
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeScience
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
 
 - type: entity
   id: WardrobeBotanist
-  name: DON'T MAP THIS # Begin Stellar - Lockers
+  name: DEPRECATED # Begin Stellar - Lockers
   parent: ClosetSteelBase
-  description: DON'T MAP THIS # End Stellar - Lockers
+  description: DEPRECATED # End Stellar - Lockers
