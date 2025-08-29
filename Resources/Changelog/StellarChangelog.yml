@@ -259,3 +259,13 @@
   id: 32
   time: '2025-08-27T04:54:08.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/102
+- author: AftrLite
+  changes:
+  - message: More Stellar Station music has been added to the lobby and jukebox.
+    type: Add
+  - message: A song intended for station events has been derotated from lobby and
+      jukebox.
+    type: Tweak
+  id: 33
+  time: '2025-08-29T02:06:39.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/104
